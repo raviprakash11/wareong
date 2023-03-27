@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wareong/static/css/main.c5cf5e79.css",
-    "main.js": "/wareong/static/js/main.5abc10a1.js",
+    "main.js": "/wareong/static/js/main.0e1ad539.js",
     "static/js/787.9002fecc.chunk.js": "/wareong/static/js/787.9002fecc.chunk.js",
     "index.html": "/wareong/index.html",
     "main.c5cf5e79.css.map": "/wareong/static/css/main.c5cf5e79.css.map",
-    "main.5abc10a1.js.map": "/wareong/static/js/main.5abc10a1.js.map",
+    "main.0e1ad539.js.map": "/wareong/static/js/main.0e1ad539.js.map",
     "787.9002fecc.chunk.js.map": "/wareong/static/js/787.9002fecc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5cf5e79.css",
-    "static/js/main.5abc10a1.js"
+    "static/js/main.0e1ad539.js"
   ]
 }
