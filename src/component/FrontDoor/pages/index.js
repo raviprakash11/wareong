@@ -1,6 +1,5 @@
 import { Box, Button, Link } from "@mui/material";
 import React, {useRef} from "react";
-import NavigationIcon from '@mui/icons-material/Navigation';
 import { useEffect, useState } from "react";
 import ContactPage from "../../Contact/pages";
 import FooterComponent from "../../Footer/pages";
@@ -118,7 +117,7 @@ const FrontDoorPage = function () {
 
     {showButton && (
         <button onClick={scrollToTop} className="back-to-top">
-          <NavigationIcon/>
+          ▲
         </button>
       )}
 
