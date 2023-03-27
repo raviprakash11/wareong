@@ -1,4 +1,3 @@
-import { SearchOutlined } from "@mui/icons-material";
 import { Box, Button, InputBase } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import { MainServices } from "../../../modules/Dashboard/services/MainServices";
@@ -43,7 +42,7 @@ const GetStartedPage = function () {
 
         <div className="search-container">
           <Box className="search-box">
-            <SearchOutlined className="search-icon" />
+            {/* <SearchOutlined className="search-icon" /> */}
             <InputBase
               className="search-field"
               placeholder="Enter your paragraph here.."
