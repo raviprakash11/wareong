@@ -1,9 +1,6 @@
 import { Button } from "@mui/material";
 import React, {useRef} from "react";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import SmartphoneIcon from "@mui/icons-material/Smartphone";
 import emailjs from "@emailjs/browser";
-import MailIcon from "@mui/icons-material/Mail";
 import "../Contact.scss";
 
 const ContactPage = function () {
@@ -109,7 +106,7 @@ const ContactPage = function () {
           <div>
             <div className="cn-dds-app">
               <div>
-                <LocationOnIcon className="icon-dds-app" />
+              🏢{/* <LocationOnIcon className="icon-dds-app" /> */}
               </div>
               <div>
                 <div className="heading-app-name">Our Location</div>
@@ -119,7 +116,7 @@ const ContactPage = function () {
 
             <div style={{ paddingTop: "2vh" }} className="cn-dds-app">
               <div>
-                <MailIcon className="icon-dds-app" />
+              📩 {/* <MailIcon className="icon-dds-app" /> */}
               </div>
               <div>
                 <div className="heading-app-name">Email Address</div>
@@ -129,7 +126,7 @@ const ContactPage = function () {
 
             <div style={{ paddingTop: "2vh" }} className="cn-dds-app">
               <div>
-                <SmartphoneIcon className="icon-dds-app" />
+              📞{/* <SmartphoneIcon className="icon-dds-app" /> */}
               </div>
               <div>
                 <div className="heading-app-name">Phone Number</div>
