@@ -1,0 +1,145 @@
+.wrn-app{
+    height: 100%;
+    width: 100%;
+    color: #2E2E2E;
+    background-color: #D7DDC8;
+    // background-color: #9F978D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .frontdoor-app{
+        height: 100vh;
+    
+        .main-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+            .nav-bar-btn{
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+                padding: 4vh 0vh 0vh 4vh;
+    
+                .link-btn{
+                    color: #2E2E2E;
+                    font-size: 1.065rem;
+                    font-weight: 500;
+                    line-height: 1.55;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+        }
+        .heading-box{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8vh 0vh 0vh 8vh;
+    
+            .heading-text{
+                width: 78%;
+                font-size: 13vh;
+                font-weight:600;
+            }
+    
+            .heading-subtext{
+                width: 78%;
+                font-size: 1.2rem;
+            }
+        }
+        .divider-main{
+            width: 32%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4vh 0vh 0vh 0vh;
+            .divider-de{
+               height: 1vh; 
+               width: 80px;
+               background-color: #2E2E2E;
+            }
+        }
+        .btn-group{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .btn-container{
+                width: 58%;
+                display: flex;
+                padding: 4vh 0vh 0vh 0vh;
+                .btn-di{
+                    padding: 2vh;
+                    .btn-de{
+                        text-transform: none;
+                        color: #2E2E2E;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-size: 1rem;
+                        border: 1px solid #2E2E2E;
+                        border-radius: 10px;
+                    }
+                    .btn-get{
+                        color: #D7DDC8;
+                        background-color: #2E2E2E;
+                    }
+                    .btn-get:hover{
+                        background-color: #D7DDC8;
+                        color: #2E2E2E;
+                    }
+                    .btn-learn:hover{
+                        color: #D7DDC8;
+                        background-color: #2E2E2E;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    background-color: #2E2E2E;
+    color: #D7DDC8;
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0 5px 10px #D7DDC8;
+  }
+  
+  .back-to-top:hover {
+    color: #2E2E2E;
+    background-color: #D7DDC8;
+  }
+
+  @media screen and (max-width: 770px) and (min-width: 100px){
+    .heading-text{
+        font-size: 2rem !important;
+    }
+    .divider-main{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4vh 0vh 0vh 0vh;
+        .divider-de{
+           height: 1vh; 
+           width: 80px;
+           background-color: #2E2E2E;
+        }
+    }
+  }
+
+  @media screen and (max-width: 885px) and (min-width: 769px){
+    .heading-text{
+        font-size: 4rem !important;
+
+    }}

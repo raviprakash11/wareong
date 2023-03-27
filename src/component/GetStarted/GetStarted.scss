@@ -1,0 +1,106 @@
+.get-started-app{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2E2E2E;
+    background-color: #D7DDC8;
+    // background-color: #9F978D;
+
+    .main-container{
+        padding-top: 11vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .main-quote{
+         text-align: center;
+         .quote-heading{
+            font-size: 1.4rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            text-decoration: underline;
+            padding: 1vh;
+            letter-spacing: .25px;
+         }
+         .quote-text{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.4rem;
+            line-height: 1.22;
+         }
+         .quote-said{
+            padding: 1vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1rem;
+            line-height: 1.22;
+            font-style: italic;
+         }
+        }
+
+        .search-container{
+            margin-top: 6vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .search-box{
+                width: 46%;
+                display: flex;
+                justify-content: center;
+                border: 1px solid #2E2E2E;
+                border-radius: 1.6rem;
+                align-items: center;
+                .search-icon{
+                    font-size: 1.4rem;
+                    padding-right: 0.6rem;
+                }
+                .search-field{
+                    width: 78%;
+                    font-size: 1.06rem;
+                }
+                .search-btn{
+                    color: #2E2E2E;
+                    font-size: 1.2rem;
+                    // background-color: #9F978D;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    align-items: center;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+        .result-container{
+            margin-top: 2vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .result-box{
+                width: 46%;
+                border: 1px solid #2E2E2E;
+                border-radius: .6rem;
+                padding: 2rem 0rem 2rem 0rem;
+                .result-heading{
+                    padding: 1rem;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 1.4rem;
+                    line-height: 1.22;
+                }
+                .result-para{
+                    padding: 1rem;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 1.0rem;
+                    line-height: 1.4;
+                    text-decoration: none;
+                }
+            }
+        }
+        .box-footer{
+            width: 72%;
+            display: flex;
+            justify-content: space-between;
+            .box-ftext{
+                font-size: .7rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+    }
+}
